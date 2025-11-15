@@ -22,20 +22,28 @@ Readable. Hackable. Permanent.
 
 ## 🚀 Features
 
-- `add "<title>" <content>` — create a Markdown note  
-- `list` — list all notes  
-- `view <title>` — display a note  
-- `delete <title>` — remove a note  
-- `search <word>` — search in titles and content  
-- notes stored in a `notes/` folder next to this project  
+- add "<title>" <content> — create a Markdown note  
+- list — list all notes  
+- view <title> — display a note  
+- delete <title> — remove a note  
+- search <word> — search in titles and content  
+- all notes stored in a local `notes/` folder  
+- folder created automatically on first run
 
 ---
 
-## ⚙️ Usage
+## ⚙️ Installation & Running
+
+Clone the repository:
+
+git clone https://github.com/whispem/plainmark  
+cd plainmark
+
+Run the CLI:
 
 cargo run
 
-💬 Example Session
+Example session:
 
 > add "meeting" Discussed Rust memory ownership.  
 > add "todo" Finish the CLI project.  
@@ -49,7 +57,7 @@ Discussed Rust memory ownership.
 Deleted.  
 > search CLI  
 todo  
-> quit
+> quit  
 
 All notes are local `.md` files, instantly readable/editable with any editor.
 
@@ -63,7 +71,7 @@ Current phase: practicing filesystem operations and small-tool clarity.
 Implemented so far:
 
 - Markdown-based persistence  
-- automatic `notes/` directory creation  
+- automatic notes/ directory creation  
 - add / list / view / delete  
 - text search  
 - interactive CLI  
@@ -126,7 +134,7 @@ Feedback welcome. 🙏
 
 Dedicated to all the “very discreet” ones in tech.  
 Those who watch everything, clone everything…  
-…and never say a word.  
+…and never say a word.
 
 We see you. 👀
 
