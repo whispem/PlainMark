@@ -36,34 +36,28 @@ Readable. Hackable. Permanent.
 
 Clone the repository:
 
-\`\`\`bash
-git clone https://github.com/whispem/plainmark
-cd plainmark
-\`\`\`
+    git clone https://github.com/whispem/plainmark
+    cd plainmark
 
 Run the CLI:
 
-\`\`\`bash
-cargo run
-\`\`\`
+    cargo run
 
 Example session:
 
-\`\`\`
-> add "meeting" Discussed Rust memory ownership.
-> add "todo" Finish the CLI project.
-> list
-meeting
-todo
-> view meeting
-# meeting
-Discussed Rust memory ownership.
-> delete meeting
-Deleted.
-> search CLI
-todo
-> quit
-\`\`\`
+    > add "meeting" Discussed Rust memory ownership.
+    > add "todo" Finish the CLI project.
+    > list
+    meeting
+    todo
+    > view meeting
+    # meeting
+    Discussed Rust memory ownership.
+    > delete meeting
+    Deleted.
+    > search CLI
+    todo
+    > quit
 
 All notes are local `.md` files, instantly readable/editable with any editor.
 
